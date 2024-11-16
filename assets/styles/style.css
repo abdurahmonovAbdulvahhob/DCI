@@ -131,6 +131,61 @@ body {
   box-shadow: 1px 2px 4px 0px #00000040;
 }
 
+.content{
+  background-color: #F6F6F6;
+  padding: 0 0 63px 0;
+
+}
+
+
+.content__wrapper {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* gap: 82px; */
+  width: 100%;
+  /* margin: 51px 0 100px 0; */
+  /* border: 1px solid #000; */
+}
+
+.content__context {
+  /* border: 1px solid #000; */
+  width: 520px;
+  /* padding-right: 51px; */
+  font-family: Roboto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 24px;
+  /* margin-top: 57px; */
+  flex-direction: column;
+}
+
+.content__title{
+  margin-top: 57px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42.78px;
+  color: #1F2E35;
+}
+.content__title span {
+  color: #ee4248;
+}
+
+.content__context p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  color: #30444e;
+}
+
+.content__image{
+  /* border: 1px solid #000; */
+  /* width: 450px; */
+  margin-left: 36px;
+  overflow: hidden;
+}
+
 @media (max-width: 1100px) {
   .navbar__social {
     display: none;
@@ -149,6 +204,22 @@ body {
   .hero__btn {
     width: 130px;
     font-size: 18px;
+  }
+
+  .content__wrapper{
+    gap:30px;
+  }
+
+  .content__image{
+    margin-left: 0;
+    padding: 30px;
+  }
+
+
+  .content__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -192,6 +263,25 @@ body {
     margin-top: 10px;
     width: 110px;
     height: 45px;
+    font-size: 16px;
+  }
+
+  .content__wrapper{
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .content__context{
+    text-align: center;
+    width: 90%;
+  }
+  .content__image{
+    margin-left: 0;
+  }
+
+  .content__context p{
     font-size: 16px;
   }
 }
@@ -238,5 +328,36 @@ body {
     width: 90px;
     height: 35px;
     font-size: 14px;
+  }
+
+  .content__wrapper{
+    gap:0;
+  }
+
+  .content__context{
+    /* margin-top: 0;  */
+    gap: 10px;
+  }
+
+  .content__image{
+    margin: 25px;
+    padding: 0;
+  }
+
+  .content__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .content__title {
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  .content__context p{
+    font-size: 14px;
+    line-height: 20px;
   }
 }

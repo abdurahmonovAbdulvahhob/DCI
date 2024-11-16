@@ -367,13 +367,14 @@ body {
     font-size: 16px;
   }
 
-  .product__button{
+  .product__button {
     width: 95px;
     font-size: 15px;
   }
 
-  .product__card{
+  .product__card {
     width: calc(50% - 4.5px);
+    box-shadow: 0px 1px 4px 0px #00000040;
   }
 }
 
@@ -451,13 +452,13 @@ body {
     font-size: 14px;
     line-height: 20px;
   }
-  
-  .product__card p{
+
+  .product__card p {
     height: auto;
     margin-bottom: 10px;
   }
 
-   .product__card{
+  .product__card {
     text-align: center;
     align-items: center;
     gap: 10px;
@@ -469,15 +470,15 @@ body {
     font-size: 14px;
   }
 
-  .product__button{
+  .product__button {
     font-size: 14px;
   }
 
-  .product__title{
+  .product__title {
     font-size: 24px;
   }
 
-  .product__card--title{
+  .product__card--title {
     font-size: 22px;
   }
 }
